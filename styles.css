@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+}
+p{
+    text-justify: auto;
+    font-size: 1.3em;
+}
+th{
+    font-size: 2em;
+    font-weight: 500;
+}
+td{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 2.5em;
+}
+.jumbotron{
+    background-color: rgb(174, 174, 175);
+    background-image: url('https://i.dailymail.co.uk/i/pix/2016/12/21/09/3B8E705B00000578-4054250-The_rapper_iammoshow_uploaded_the_video_of_himself_bathing_his_c-m-30_1482313094196.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 21.5em;
+    color: rgb(0, 0, 0)
+}
+.display-4 .lead{
+    background-color: rgb(222, 220, 237);
+    
+}
+#spacer{
+    height: 15em;
+}
+.footer{
+    padding-top: 5px;
+    background-color: rgb(74, 176, 213);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+.copyright{
+    padding: 10px;
+    background-color: rgb(174, 174, 175);
+    text-align: center;
+    color: rgb(74, 176, 213);
+}
