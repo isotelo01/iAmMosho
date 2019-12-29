@@ -1,46 +1,122 @@
 body{
     background-color: whitesmoke;
 }
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+a:hover {
+    
+    color: rgba(235, 16, 147, 0.57);
+  }
+  
+  
+  
+  .next .previous {
+    color: rgb(74, 176, 213);
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+#featured{
+    background-color: black;  
+}
+.songList{
+    width: 50em;
+    align-items: center;
+}
 p{
     text-justify: auto;
     font-size: 1.3em;
-}
+  }
 th{
     font-size: 2em;
     font-weight: 500;
-}
+  }
+.tdh{
+    font-size: 1em;
+    color: rgba(235, 16, 147, 0.57);
+  }
+.tdp{
+    font-size: 0.6em;
+    color: rgba(186, 165, 177, 0.57);
+  }
 td{
-    font-size: 1.5em;
-}
+    font-size: 2em;
+    color: rgba(235, 16, 147, 0.57);
+  }
 h3{
     font-size: 2.5em;
-}
+  }
+.white{
+    color: whitesmoke;
+  }
 .jumbotron{
-    background-color: rgb(174, 174, 175);
-    background-image: url('https://i.dailymail.co.uk/i/pix/2016/12/21/09/3B8E705B00000578-4054250-The_rapper_iammoshow_uploaded_the_video_of_himself_bathing_his_c-m-30_1482313094196.jpg');
-    background-repeat: no-repeat;
+    background-color: black;
     background-position: right;
-    height: 21.5em;
-    color: rgb(0, 0, 0)
+    border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
+  }
+.index{
+    width: 80%;
+  }
+.jumbotron2{
+    color: rgba(235, 16, 147, 0.57);
+    background-image: url(img/imm-cats.jpg);
+    text-align: center;
+    border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
+    border-top: transparent 1em;
+
 }
-.display-4 .lead{
-    background-color: rgb(222, 220, 237);
-    
+.hud{
+    color: rgba(235, 16, 147, 0.57);
+    font-family: 'Nosifer', cursive; 
+    font-size: 5em; 
+}
+.sud{
+    color: rgba(235, 16, 147, 0.57);
+    font-family: 'Luckiest Guy', cursive; 
+    font-size: 2.5em; 
 }
 #spacer{
     height: 15em;
 }
 .footer{
-    padding-top: 5px;
+    border-top: rgba(235, 16, 147, 0.57) 1em solid;
     background-color: rgb(74, 176, 213);
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
 }
 .copyright{
     padding: 10px;
-    background-color: rgb(174, 174, 175);
     text-align: center;
     color: rgb(74, 176, 213);
+}
+.textCR{
+    font-size: 2em;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    
+}
+.jbt{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 100px;
+    
+}
+.gb{
+    color: red;
+}
+.forward{
+    color:black;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin-top: 4px;
+
 }
