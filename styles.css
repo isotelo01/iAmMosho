@@ -1,18 +1,21 @@
 body{
-    background-color: whitesmoke;
+    background-color: black;
 }
 a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
   }
+/* ----- index page-------------*/
 
 a:hover {
     
     color: rgba(235, 16, 147, 0.57);
   }
   
-  
+  .flixIt{
+      display: flex;
+  }
   
   .next .previous {
     color: rgb(74, 176, 213);
@@ -22,12 +25,24 @@ a:hover {
     border-radius: 50%;
   }
 #featured{
-    background-color: black;  
-}
-.songList{
-    width: 50em;
-    align-items: center;
-}
+    background-color: rgb(11, 10, 10);
+   
+ }
+ .songList{
+   background-color: rgb(70, 48, 32);
+   display: flex;
+   flex-direction: column;
+   align-content: flex-end;
+   
+ }
+ .tableF{
+  
+  width: 50%;
+ } 
+
+.storelink{
+    height: 15em;
+}  
 p{
     text-justify: auto;
     font-size: 1.3em;
@@ -118,5 +133,11 @@ h3{
     background-color: blanchedalmond;
     padding: 5px;
     margin-top: 4px;
-
+}
+.books{
+    text-align: center;
+   
+}
+.coloringbook{
+    height: 35em;
 }
