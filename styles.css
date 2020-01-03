@@ -35,11 +35,17 @@ a:hover {
    align-content: flex-end;
    
  }
- .tableF{
+ .containerF{
+  display: flex;
+  justify-content: space-around;
   
-  width: 50%;
+ }
+ .tableF{
+  width: 65%;
  } 
-
+.iframe{
+  float: right;
+}
 .storelink{
     height: 15em;
 }  
@@ -69,6 +75,10 @@ h3{
 .white{
     color: whitesmoke;
   }
+.featuredTitle{
+  color:rgb(74, 176, 213);
+  padding: .5em;
+}
 .jumbotron{
     background-color: black;
     background-position: right;
@@ -139,5 +149,5 @@ h3{
    
 }
 .coloringbook{
-    height: 35em;
+    height: 30em;
 }
