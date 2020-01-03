@@ -1,100 +1,85 @@
 body{
     background-color: black;
-}
-a {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(165, 237, 83);
+   }
+  a {
     text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
+    color: rgb(172, 4, 244);
+    transition: color .5s;
   }
-/* ----- index page-------------*/
-
-a:hover {
-    
+  a:hover {
+    text-decoration: none;
     color: rgba(235, 16, 147, 0.57);
   }
-  
-  .flixIt{
-      display: flex;
+  p{
+    text-justify: auto;
+    font-size: 1.3em;
   }
-  
-  .next .previous {
-    color: rgb(74, 176, 213);
+  th{
+    font-size: 2em;
+    font-weight: 500;
+    
   }
-  
-  .round {
-    border-radius: 50%;
+  td{
+    font-size: 2em;
+    color: rgba(235, 16, 147, 0.57);
+    border-bottom: rgb(165, 237, 83) solid;
+    padding-top: 0.5em;
   }
-#featured{
-    background-color: rgb(11, 10, 10);
-   
- }
- .songList{
-   background-color: rgb(70, 48, 32);
-   display: flex;
-   flex-direction: column;
-   align-content: flex-end;
-   
- }
+  h3{
+    font-size: 2.5em;
+  }
+/* ----- index page-------------*/
+.navColor{
+  background-color: rgb(172, 4, 244);
+}
+.jumbotron{
+  background-color: black;
+  background-position: right;
+  border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
+}
+  
+  .storelink{
+    height: 15em;
+  }  
+  .tableHeadTitle{
+    color: rgb(165, 237, 83);
+  }
+
+ /* ----- featured page-------------*/
+ .jumbotron2{
+  color: rgba(235, 16, 147, 0.57);
+  background-image: url(img/imm-cats.jpg);
+  text-align: center;
+  border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
+  border-top: transparent 1em;
+}
+.index{
+  width: 80%;
+}
  .containerF{
   display: flex;
   justify-content: space-around;
   
  }
+ .featuredTitle{
+  color:rgb(165, 237, 83);
+  padding-left: .5em;
+  font-size: 4em;
+}
  .tableF{
   width: 65%;
  } 
-.iframe{
-  float: right;
-}
-.storelink{
-    height: 15em;
-}  
-p{
-    text-justify: auto;
-    font-size: 1.3em;
-  }
-th{
-    font-size: 2em;
-    font-weight: 500;
-  }
 .tdh{
     font-size: 1em;
     color: rgba(235, 16, 147, 0.57);
   }
 .tdp{
     font-size: 0.6em;
-    color: rgba(186, 165, 177, 0.57);
+    color: rgb(165, 237, 83);
   }
-td{
-    font-size: 2em;
-    color: rgba(235, 16, 147, 0.57);
-  }
-h3{
-    font-size: 2.5em;
-  }
-.white{
-    color: whitesmoke;
-  }
-.featuredTitle{
-  color:rgb(74, 176, 213);
-  padding: .5em;
-}
-.jumbotron{
-    background-color: black;
-    background-position: right;
-    border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
-  }
-.index{
-    width: 80%;
-  }
-.jumbotron2{
-    color: rgba(235, 16, 147, 0.57);
-    background-image: url(img/imm-cats.jpg);
-    text-align: center;
-    border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
-    border-top: transparent 1em;
 
-}
 .hud{
     color: rgba(235, 16, 147, 0.57);
     font-family: 'Nosifer', cursive; 
@@ -110,11 +95,10 @@ h3{
 }
 .footer{
     border-top: rgba(235, 16, 147, 0.57) 1em solid;
-    background-color: rgb(74, 176, 213);
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -122,7 +106,7 @@ h3{
 .copyright{
     padding: 10px;
     text-align: center;
-    color: rgb(74, 176, 213);
+    color: rgb(165, 237, 83);
 }
 .textCR{
     font-size: 2em;
@@ -134,8 +118,24 @@ h3{
     font-size: 100px;
     
 }
-.gb{
-    color: red;
+.footerNav{
+  border-radius: 1em;
+}
+ .previous{
+  font-size: 2em;
+  background-color: rgb(172, 4, 244);
+  color: rgb(165, 237, 83);
+  border-radius: 5%;
+  margin: 1em;
+  padding: 0em .3em;
+}
+.next{
+  font-size: 2em;
+  background-color: rgb(172, 4, 244);
+  color: rgb(165, 237, 83);
+  border-radius: 5%;
+  padding: 0em .3em;
+  margin: 1em;
 }
 .forward{
     color:black;
@@ -144,8 +144,12 @@ h3{
     padding: 5px;
     margin-top: 4px;
 }
+.storeParagraph{
+  padding-left: .5em;  
+}
 .books{
     text-align: center;
+    padding-bottom: 1em;
    
 }
 .coloringbook{
