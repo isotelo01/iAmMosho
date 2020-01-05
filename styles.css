@@ -2,6 +2,7 @@ body{
     background-color: black;
     font-family: 'Varela Round', sans-serif;
     color: rgb(165, 237, 83);
+    
    }
   a {
     text-decoration: none;
@@ -12,14 +13,16 @@ body{
     text-decoration: none;
     color: rgba(235, 16, 147, 0.57);
   }
+  iframe{
+    border-radius: 1rem;
+  }
   p{
     text-justify: auto;
     font-size: 1.3em;
   }
   th{
     font-size: 2em;
-    font-weight: 500;
-    
+    font-weight: 500; 
   }
   td{
     font-size: 2em;
@@ -33,6 +36,11 @@ body{
 /* ----- index page-------------*/
 .navColor{
   background-color: rgb(172, 4, 244);
+}
+.index{
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
 }
 .jumbotron{
   background-color: black;
@@ -56,7 +64,6 @@ body{
     box-shadow: 0px 0px 10px rgb(172, 4, 244),
                 5px 5px 10px rgba(235, 16, 147, 0.57);
     margin-bottom: 2rem;
-    
     text-align: center;
   }
   .fanPageLink{
@@ -73,7 +80,7 @@ body{
   }
   .black{
     color: #000;
-    font-size: 3em;
+    font-size: 3rem;
   }
   .black:hover{
     color: black;
@@ -84,19 +91,23 @@ body{
   #spacer{
     height: 15em;
 }
-
 .footer{
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.footerContainer{
   border-top:rgba(235, 16, 147, 0.57) 1rem solid;
   border-radius: 1.5rem;
   position: fixed;
   bottom: 0;
-  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: black;
-
-    
+  width: 100%;
+  justify-content: space-around;
+  background-color: black;   
 }
 .copyright{
     padding: 10px;
@@ -145,22 +156,20 @@ body{
   border-bottom: rgba(235, 16, 147, 0.57) solid 1em;
   border-top: transparent 1em;
 }
-.index{
-  width: 80%;
-}
+
  .containerF{
   display: flex;
   justify-content: space-around;
-  
+  width: 100%; 
  }
  .featuredTitle{
   color:rgb(165, 237, 83);
-  padding-left: .5em;
-  font-size: 4em;
+  font-size: 4rem;
 }
  .tableF{
-  width: 65%;
+ width: 55rem;
  } 
+
 .tdh{
     font-size: 1em;
     color: rgba(235, 16, 147, 0.57);
